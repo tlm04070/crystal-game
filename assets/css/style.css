@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+     
+}
+
+.container{
+    
+    font-size: 25px;
+    margin: 10%;
+    width: 60%;
+    margin-bottom: 5%;
+    
+}
+
+h1{
+   background: #efb84b;
+   width: 45%;
+}
+
+#info{
+    background: #EFB84B;
+}
+
+body{
+    background: #4aaaa5;
+   
+}
+
+#game{
+    width: 80%;
+    height: 70%;
+    
+}
+
+#picture{
+    height: 200px;
+    width: 200px;
+    margin: 2%;
+    
+}
+#second{
+    margin-right: 5%;
+    
+}
+
+#game{
+    background: #ffffff;
+    position: absolute;
+    margin: 2%;
+    height: 36%;
+    width: 50%;
+    margin-top: 5%;
+    
+    
+}
+
+h3{
+    text-align: center;
+}
+
+#first, #second, #third{
+    float: left;
+}
