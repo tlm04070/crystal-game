@@ -2,6 +2,7 @@ var wins= 0;
 var loses= 0;
 
 // randomly picks and appends numbers to each gem
+
 $(document).ready(function start(){
 var w = false;
 var l = false;
@@ -9,6 +10,7 @@ var random1 =0;
 var random2 =0;
 var random3 =0;
 var total = 0;
+
 
 var playerNum = total;
 console.log(random1, random2, random3)
@@ -54,16 +56,15 @@ function lose(){
 
 function check(){
     if( total === targetNum){
-        alert("testing");
+        alert("You won!");
         w= true;
         win();
     }else if( total > targetNum){
-        alert("gg");
+        alert("Try again!");
         l= true;
         lose();
     }
 };
-
 
 
 $("#first").on("click", function(){
@@ -84,13 +85,8 @@ $("#third").on("click", function(){
      check();
   });
 
-  
 
 $("#player p").html(playerNum);
-
-
-
- 
 
 
 function gameover(){
