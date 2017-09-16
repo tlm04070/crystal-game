@@ -9,16 +9,17 @@
     margin: 10%;
     width: 60%;
     margin-bottom: 5%;
-    
 }
 
 h1{
    background: #efb84b;
    width: 45%;
+   border: 25px solid #138581;
 }
 
 #info{
     background: #EFB84B;
+    border: 35px solid #138581;
 }
 
 body{
@@ -28,8 +29,13 @@ body{
 
 #game{
     width: 80%;
-    height: 70%;
+    height: 85%;
     
+}
+
+#target{
+    text-align: center;
+    margin-bottom: 10%;
 }
 
 #picture{
@@ -47,11 +53,9 @@ body{
     background: #ffffff;
     position: absolute;
     margin: 2%;
-    height: 36%;
+    height: 65%;
     width: 50%;
     margin-top: 5%;
-    
-    
 }
 
 h3{
@@ -60,4 +64,8 @@ h3{
 
 #first, #second, #third{
     float: left;
+}
+
+#player{
+    text-align: center;
 }
